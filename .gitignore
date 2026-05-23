@@ -1,6 +1,10 @@
-# wrangler files
-.wrangler
-.dev.vars*
-!.dev.vars.example
-.env*
-!.env.example
+v1/
+v2/
+v3/
+v4/
+node_modules/
+style.src.css
+script.src.js
+postcss.config.js
+package.json
+package-lock.json
