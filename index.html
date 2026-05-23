@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoglesWorld — Закрытый РПГ-сервер Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrap">
+            <a href="index.html" class="brand">Rogles<span>World</span></a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+            <ul class="menu" id="navLinks">
+                <li><a href="index.html" class="on">Главная</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="rules.html">Правила</a></li>
+                <li><a href="partners.html">Стримеры</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="wrap">
+            <div class="hero-badge"><span class="dot"></span>Сервер онлайн — вход по проходке</div>
+            <h1>Rogles<em>World</em></h1>
+            <p class="hero-desc">Закрытый РПГ-сервер Minecraft. Навыки, чары, земли, войны, NPC-диалоги и голосовой чат.</p>
+            <div class="hero-stats">
+                <div class="hs"><strong id="onlineCount">—</strong><span>онлайн</span></div>
+                <div class="hs"><strong>24/7</strong><span>аптайм</span></div>
+                <div class="hs"><strong>1.21.1</strong><span>версия</span></div>
+            </div>
+            <div class="hero-btns">
+                <a href="#pass" class="btn">Получить проходку</a>
+                <a href="rules.html" class="btn outline">Правила</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="sep"></div>
+
+    <section class="features">
+        <div class="wrap">
+            <h2>Что внутри</h2>
+            <p class="sub">РПГ-механики, которых нет в ваниле</p>
+            <div class="fgrid">
+                <div class="fc">
+                    <div class="fi"><img src="icons/muscle-up.svg" alt="" width="28" height="28"></div>
+                    <h3>Развитие навыков</h3>
+                    <p>Копай, руби, сражайся — каждый навык растёт и усиливает персонажа</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/magic-swirl.svg" alt="" width="28" height="28"></div>
+                    <h3>Уникальные чары</h3>
+                    <p>Кастомные зачарования для оружия и брони</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/battlement.svg" alt="" width="28" height="28"></div>
+                    <h3>Земли и войны</h3>
+                    <p>Заявляй территорию, строй поселение, воюй за ресурсы</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/conversation.svg" alt="" width="28" height="28"></div>
+                    <h3>Диалоги с NPC</h3>
+                    <p>Жители расскажут историю, дадут задания и помогут сориентироваться</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/cash.svg" alt="" width="28" height="28"></div>
+                    <h3>Экономика</h3>
+                    <p>Аукцион, магазин и торговля между игроками</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/loudspeaker.svg" alt="" width="28" height="28"></div>
+                    <h3>Голосовой чат</h3>
+                    <p>Говори с другими прямо в игре</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/tombstone.svg" alt="" width="28" height="28"></div>
+                    <h3>Могилы</h3>
+                    <p>Вещи после смерти сохраняются</p>
+                </div>
+                <div class="fc">
+                    <div class="fi"><img src="icons/hooded-figure.svg" alt="" width="28" height="28"></div>
+                    <h3>Скины и аватарки</h3>
+                    <p>Кастомные аватарки и свой скин без лицензии</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sep"></div>
+
+    <section class="pass" id="pass">
+        <div class="wrap">
+            <h2>Как попасть на сервер</h2>
+            <p class="sub">Без проходки вход невозможен — IP выдаётся только после оформления</p>
+            <div class="pgrid">
+                <div class="pc">
+                    <div class="tag">Баллы</div>
+                    <h3>За баллы канала</h3>
+                    <div class="price">8 000 <span>баллов у стримера</span></div>
+                    <ul class="pl">
+                        <li>Накопи 8 000 баллов на канале стримера</li>
+                        <li>Обменяй баллы на проходку</li>
+                        <li>Укажи корректный ник (с большими буквами)</li>
+                        <li>Получи IP и внесение в вайтлист</li>
+                    </ul>
+                    <a href="partners.html" class="btn">К стримерам</a>
+                </div>
+                <div class="pc">
+                    <div class="tag">Донат</div>
+                    <h3>За донат</h3>
+                    <div class="price">350 ₽ <span>навсегда</span></div>
+                    <ul class="pl">
+                        <li>Зайди на канал к Godluckplus</li>
+                        <li>Отправь 350 ₽ через DonationAlerts</li>
+                        <li>Укажи корректный ник (с большими буквами)</li>
+                        <li>IP и вайтлист после оплаты</li>
+                    </ul>
+                    <a href="https://www.donationalerts.com/r/godluckplus" target="_blank" class="btn rust">Купить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sep"></div>
+
+    <section class="steps">
+        <div class="wrap">
+            <h2>Путь на сервер</h2>
+            <div class="srow">
+                <a href="#pass" class="sc"><div class="sn">I</div><h4>Оформи проходку</h4><p>Баллы или донат</p></a>
+                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank" class="sc"><div class="sn">II</div><h4>Изучи правила и лор</h4><p>#Правила и #Лор в Discord</p></a>
+                <a href="https://modrinth.com/discover/mods" target="_blank" class="sc"><div class="sn">III</div><h4>Установи моды</h4><p>1.21.1 + Emotecraft и Plasma Voice</p></a>
+                <div class="sc" data-modal="waitlist"><div class="sn">IV</div><h4>Дождись вайтлиста</h4><p>Админ внесёт ник</p></div>
+                <div class="sc" data-modal="play"><div class="sn">V</div><h4>Играй!</h4><p>Подключайся по IP</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="modalWaitlist">
+        <div class="modal">
+            <button class="modal-close" aria-label="Закрыть">&times;</button>
+            <span class="modal-icon">&#9203;</span>
+            <h3>Ожидание вайтлиста</h3>
+            <p>Администрация рассматривает вашу проходку в течение дня.</p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modalPlay">
+        <div class="modal">
+            <button class="modal-close" aria-label="Закрыть">&times;</button>
+            <span class="modal-icon">&#9876;</span>
+            <h3>Добро пожаловать!</h3>
+            <p>Если ты выполнил все пункты, отпиши в Discord, получи роль и в канале <strong>#сервер</strong> можешь взять IP.</p>
+        </div>
+    </div>
+
+    <div class="wrap" style="padding:20px 24px 60px">
+        <div class="warn">Незнание правил не освобождает от ответственности! Игнорирование #Правила и #Лор — бан.</div>
+    </div>
+
+    <div class="sep"></div>
+
+    <section class="news-sec">
+        <div class="wrap" style="text-align:center">
+            <h2>Последние вести</h2>
+            <p class="sub">Новости и обновления сервера в Telegram-канале</p>
+            <a href="news.html" class="btn outline" style="margin-top:1.2rem">Все вести</a>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <div class="wrap">
+            <div>
+                <a href="index.html" class="brand">Rogles<span>World</span></a>
+                <p>Закрытый РПГ-мир Minecraft</p>
+            </div>
+            <div>
+                <h4>Навигация</h4>
+                <a href="index.html">Главная</a>
+                <a href="news.html">Новости</a>
+                <a href="rules.html">Правила</a>
+                <a href="partners.html">Стримеры</a>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank">Discord</a>
+                <a href="https://t.me/roglesworld" target="_blank">Telegram</a>
+                <a href="https://www.donationalerts.com/r/godlukplus" target="_blank">Донат</a>
+            </div>
+        </div>
+        <div class="copy"><p>&copy; 2026 RoglesWorld</p></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
