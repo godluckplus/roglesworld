@@ -604,7 +604,7 @@ section{position:relative;z-index:1}
 
 .bcome p{color:var(--text2);max-width:400px;margin:0 auto 12px;font-size:0.9rem}
 
-.newsp{max-width:700px;margin:0 auto;padding:120px 24px 80px}
+.newsp{max-width:700px;margin:0 auto;padding:120px 24px 80px;text-align:center}
 
 .newsp h1{
     font-family:'Oswald',cursive;font-size:2.6rem;
@@ -613,6 +613,18 @@ section{position:relative;z-index:1}
 }
 
 .newsp .sub{text-align:center;color:var(--text3);margin-bottom:32px;font-size:0.95rem}
+
+.faq{max-width:700px;margin:0 auto;padding:120px 24px 80px;text-align:center}
+
+.faq h1{
+    font-family:'Oswald',cursive;font-size:2.6rem;
+    color:var(--text);margin-bottom:8px;
+    text-shadow:0 0 30px var(--copper-glow);
+}
+
+.faq .sub{text-align:center;color:var(--text3);margin-bottom:32px;font-size:0.95rem}
+
+.faq .rb{text-align:left}
 
 .njoin{
     text-align:center;background:var(--surface);backdrop-filter:blur(10px);
