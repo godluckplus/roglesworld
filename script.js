@@ -83,4 +83,24 @@
             if(empty)empty.style.display='block';
         }
     },4000);
+
+    document.querySelectorAll('.reveal').forEach(function(el){
+        var observer=new IntersectionObserver(function(entries){
+            entries.forEach(function(entry){
+                if(entry.isIntersecting){
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        },{threshold:0.15});
+        observer.observe(el);
+    });
+
+    var heroEls=['.hero-badge','.hero h1','.hero-desc','.hero-stats','.hero-btns'];
+    heroEls.forEach(function(sel,delay){
+        var el=document.querySelector(sel);
+        if(el){
+            setTimeout(function(){el.classList.add('on')},200+delay*150);
+        }
+    });
 })();
