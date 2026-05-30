@@ -14,7 +14,6 @@
 </head>
 <body>
 
-<!-- ===== SPLASH SCREEN ===== -->
 <div class="splash" id="splash">
     <div class="splash-particles"></div>
     <div class="splash-center">
@@ -27,12 +26,11 @@
     <div class="splash-line" id="splashLine"></div>
 </div>
 
-<!-- ===== MAIN CONTENT ===== -->
 <div class="main-content" id="mainContent">
 
     <nav class="topbar">
         <div class="topbar-inner">
-            <a href="index.html" class="topbar-brand">Rogles<span>World</span></a>
+            <a href="#" class="topbar-brand" id="brandLink" onclick="return false">Rogles<span>World</span></a>
             <ul class="topbar-links" id="navLinks">
                 <li><a href="index.html" data-active>Главная</a></li>
                 <li><a href="news.html">Новости</a></li>
@@ -40,9 +38,7 @@
                 <li><a href="partners.html">Стримеры</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
-            <button class="topbar-burger" id="burger" aria-label="Меню">
-                <i></i><i></i><i></i>
-            </button>
+            <button class="topbar-burger" id="burger" aria-label="Меню"><i></i><i></i><i></i></button>
         </div>
     </nav>
 
@@ -158,30 +154,32 @@
     <section class="section">
         <div class="container">
             <h2 class="section-title">Путь на сервер</h2>
-            <div class="steps-flow">
-                <a href="#passage" class="step-item">
-                    <div class="step-num">I</div>
-                    <div class="step-info"><h4>Оформи проходку</h4><p>Баллы или донат</p></div>
+            <div class="path-bar">
+                <div class="path-track"></div>
+                <a href="#passage" class="path-node">
+                    <div class="path-num">I</div>
+                    <div class="path-label">Оформи проходку</div>
+                    <div class="path-hint">Баллы или донат</div>
                 </a>
-                <div class="step-connector"></div>
-                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank" class="step-item">
-                    <div class="step-num">II</div>
-                    <div class="step-info"><h4>Изучи правила и лор</h4><p>#Правила и #Лор в Discord</p></div>
+                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank" class="path-node">
+                    <div class="path-num">II</div>
+                    <div class="path-label">Изучи правила и лор</div>
+                    <div class="path-hint">Discord</div>
                 </a>
-                <div class="step-connector"></div>
-                <div class="step-item" data-modal="mods">
-                    <div class="step-num">III</div>
-                    <div class="step-info"><h4>Установи моды</h4><p>1.21.1 + Emotecraft и Plasma Voice</p></div>
+                <div class="path-node" data-modal="mods">
+                    <div class="path-num">III</div>
+                    <div class="path-label">Установи моды</div>
+                    <div class="path-hint">Emotecraft + Plasma Voice</div>
                 </div>
-                <div class="step-connector"></div>
-                <div class="step-item" data-modal="waitlist">
-                    <div class="step-num">IV</div>
-                    <div class="step-info"><h4>Дождись вайтлиста</h4><p>Админ внесёт ник</p></div>
+                <div class="path-node" data-modal="waitlist">
+                    <div class="path-num">IV</div>
+                    <div class="path-label">Дождись вайтлиста</div>
+                    <div class="path-hint">Админ внесёт ник</div>
                 </div>
-                <div class="step-connector"></div>
-                <div class="step-item" data-modal="play">
-                    <div class="step-num">V</div>
-                    <div class="step-info"><h4>Играй!</h4><p>Подключайся по IP</p></div>
+                <div class="path-node" data-modal="play">
+                    <div class="path-num">V</div>
+                    <div class="path-label">Играй!</div>
+                    <div class="path-hint">Подключайся по IP</div>
                 </div>
             </div>
         </div>
@@ -243,17 +241,11 @@
             </div>
             <div class="footer-col">
                 <h4>Навигация</h4>
-                <a href="index.html">Главная</a>
-                <a href="news.html">Новости</a>
-                <a href="rules.html">Правила</a>
-                <a href="partners.html">Стримеры</a>
-                <a href="faq.html">FAQ</a>
+                <a href="index.html">Главная</a><a href="news.html">Новости</a><a href="rules.html">Правила</a><a href="partners.html">Стримеры</a><a href="faq.html">FAQ</a>
             </div>
             <div class="footer-col">
                 <h4>Контакты</h4>
-                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank">Discord</a>
-                <a href="https://t.me/roglesworld" target="_blank">Telegram</a>
-                <a href="https://www.donationalerts.com/r/godlukplus" target="_blank">Донат</a>
+                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank">Discord</a><a href="https://t.me/roglesworld" target="_blank">Telegram</a><a href="https://www.donationalerts.com/r/godlukplus" target="_blank">Донат</a>
             </div>
         </div>
         <div class="footer-copy">&copy; 2026 RoglesWorld</div>
@@ -262,7 +254,6 @@
 </div>
 
 <button class="scroll-up" id="toTop" aria-label="Наверх">▲</button>
-
 <script src="script.js"></script>
 </body>
 </html>
