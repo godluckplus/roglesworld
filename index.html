@@ -32,17 +32,20 @@
         <div class="topbar-inner">
             <a href="#" class="topbar-brand" id="brandLink" onclick="return false">Rogles<span>World</span></a>
             <ul class="topbar-links" id="navLinks">
-                <li><a href="index.html" data-active>Главная</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="rules.html">Правила</a></li>
-                <li><a href="partners.html">Стримеры</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#hero" data-active>Главная</a></li>
+                <li><a href="#features">Механики</a></li>
+                <li><a href="#passage">Проходка</a></li>
+                <li><a href="#path">Путь</a></li>
+                <li><a href="#news">Вести</a></li>
+                <li><a href="#rules">Правила</a></li>
+                <li><a href="#partners">Стримеры</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
             <button class="topbar-burger" id="burger" aria-label="Меню"><i></i><i></i><i></i></button>
         </div>
     </nav>
 
-    <section class="section" id="about">
+    <section class="section" id="hero">
         <div class="container">
             <div class="hero-row">
                 <div class="hero-info">
@@ -57,7 +60,7 @@
                 </div>
                 <div class="hero-actions">
                     <a href="#passage" class="btn-primary">Получить проходку</a>
-                    <a href="rules.html" class="btn-outline">Правила</a>
+                    <a href="#rules" class="btn-outline">Правила</a>
                 </div>
             </div>
         </div>
@@ -131,7 +134,7 @@
                         <li>Укажи корректный ник (с большими буквами)</li>
                         <li>Получи IP и внесение в вайтлист</li>
                     </ul>
-                    <a href="partners.html" class="btn-primary">К стримерам</a>
+                    <a href="#partners" class="btn-primary">К стримерам</a>
                 </div>
                 <div class="passage-card passage-card-red">
                     <div class="passage-badge badge-red">Донат</div>
@@ -143,7 +146,7 @@
                         <li>Укажи корректный ник (с большими буквами)</li>
                         <li>IP и вайтлист после оплаты</li>
                     </ul>
-                    <a href="https://www.donationalerts.com/r/godluckplus" target="_blank" class="btn-red">Купить</a>
+                    <a href="https://www.donationalerts.com/r/godlukplus" target="_blank" class="btn-red">Купить</a>
                 </div>
             </div>
         </div>
@@ -151,7 +154,7 @@
 
     <div class="divider"></div>
 
-    <section class="section">
+    <section class="section" id="path">
         <div class="container">
             <h2 class="section-title">Путь на сервер</h2>
             <div class="path-bar">
@@ -185,6 +188,248 @@
         </div>
     </section>
 
+    <div class="divider"></div>
+
+    <section class="section" id="news">
+        <div class="container">
+            <h2 class="section-title">Последние вести</h2>
+            <p class="section-sub">Обновления, ивенты и объявления</p>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">24 мая 2026</div>
+                    <h3>UPDATE от 24.05</h3>
+                    <ul class="news-list">
+                        <li>1. Переработана защита сервера — утренних проблем больше не будет</li>
+                        <li>2. /shop и /ah стали NPC — найти можно на спавне</li>
+                        <li>2.1. Яйцо торговца и аукционера в продаже, раздел «RARE», стоимость 300 монет</li>
+                        <li>3. Добавлен персональный склад — открывается через NPC на спавне</li>
+                        <li>3.1. Яйцо банкира можно купить в магазине</li>
+                        <li>4. Проделаны работы по стабильной работе сервера</li>
+                        <li>5. Переделан TAB</li>
+                        <li>6. Еженедельная аренда за первые 6 чанков бесплатная, за последующие — 60 монет за чанк</li>
+                        <li>7. Исправлен чат и команда MSG</li>
+                    </ul>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">23 мая 2026</div>
+                    <h3>Открытие прошло успешно!</h3>
+                    <p>Выявили пару проблем и уже их зафиксили. Нашли пару фишек прокачки, исправим в ближайшее время.</p>
+                    <p class="news-sign">С уважением администрация Rogles World</p>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">23 мая 2026</div>
+                    <h3>Демо-ролик сервера</h3>
+                    <p>Опубликовали видеоролик с демонстрацией сервера — РПГ механики, прокачка, скилы и многое другое.</p>
+                    <a href="https://youtu.be/ZXrjIpZblX8" target="_blank" class="btn-primary" style="margin-top:8px">Смотреть на YouTube</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">23 мая 2026</div>
+                    <h3>Полный Update ч.1</h3>
+                    <p>Сервер теперь является РПГ проектом с удобными механиками и ограничениями. Добавлены: деньги, профиль игрока, система приватов, могилки, аукционный дом, магазин, фракции, налоги, прокачка профессий, NPC с диалогами, уникальные чары, голосовой чат. Всё переведено на русский.</p>
+                    <p>Проходка — только через баллы стримера или донат 350₽. Сервер 16+.</p>
+                </article>
+            </div>
+            <div class="join-box">
+                <p>Подпишись, чтобы не пропускать важные вести</p>
+                <a href="https://t.me/roglesworld" target="_blank" class="btn-primary">Подписаться в Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="rules">
+        <div class="container">
+            <h2 class="section-title">Правила RoglesWorld</h2>
+            <p class="section-sub">Незнание правил не освобождает от ответственности</p>
+            <div class="rules-grid">
+                <div class="rule-block">
+                    <h2><img src="icons/law-star.svg" alt="" width="20" height="20"> Основные правила</h2>
+                    <ul>
+                        <li>Запрещены любые сторонние программы/шейдеры/текстурпаки, позволяющие получить преимущество и сломать игровую механику</li>
+                        <li>Оскорбление администрации — БАН! Читы — Бан! Негативное высказывание о сервере и ложные суждения — БАН!</li>
+                        <li>Игрок вправе обжаловать свой бан! Рассмотрение выносится на голосование среди администрации</li>
+                        <li>Незнание правил не освобождает от ответственности!</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/conversation.svg" alt="" width="20" height="20"> Правила общения</h2>
+                    <ul>
+                        <li>Мы не РП проект, а РПГ — здесь можно общаться на любые темы</li>
+                        <li class="sub">Если рядом стример — темы нужно сократить</li>
+                        <li class="sub">Разжигание ненависти, политота реального мира — ЗАПРЕЩЕНА!</li>
+                        <li>В поселениях есть иерархии — вам могут настучать по голове (см. ПВП)</li>
+                        <li>Нарушение = временная блокировка или полный бан</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/crossed-swords.svg" alt="" width="20" height="20"> ПВП, Файты, Войны</h2>
+                    <ul>
+                        <li>Убийство «просто так» запрещено</li>
+                        <li class="sub">Мы не «Анархия» — в этом отличие</li>
+                        <li class="sub">Если выглядит как убийство просто так — напиши администрации</li>
+                        <li class="sub">Объявление войны «просто так» тоже запрещено</li>
+                        <li>Драки должны быть обоснованы — борьба за ресурсы/предметы/территории</li>
+                        <li class="sub">Война за территории — объявление городу или государству</li>
+                        <li class="sub">Войны за территории проводят только ГОСУДАРСТВА</li>
+                        <li>Разрушать чужие постройки запрещено</li>
+                        <li>Во время битв — КД 60 минут после смерти</li>
+                        <li class="sub">При захвате территории КД отменяется до конца битвы</li>
+                        <li>ПВП за ресурсы разрешён, но с КД</li>
+                        <li>Драка за земляной блок = нарушение правил</li>
+                        <li>Ресурсы в ПВП остаются у победителя</li>
+                        <li>При обоюдном согласии — вещи возвращаются владельцу, если не договорились иначе</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/battlement.svg" alt="" width="20" height="20"> Города, земли, дипломатия</h2>
+                    <ul>
+                        <li>Город/государство/поселение = место с флагом и табличкой</li>
+                        <li class="sub">Без этих знаков игрок вправе забрать всё из дома</li>
+                        <li class="sub">Воровство в остальных случаях ЗАПРЕЩЕНО</li>
+                        <li>На территориях действуют свои законы</li>
+                        <li class="sub">Зашёл на чужую территорию — могут выгнать, при отказе — убить</li>
+                        <li class="sub">Если пришедший отвечает на атаку — он нарушитель</li>
+                        <li>Строительство на чужой земле — только с согласия</li>
+                        <li class="sub">Письменное согласие через книгу в игре — в ваших интересах</li>
+                        <li class="sub">Без документа постройку могут снести (2 дня на переезд)</li>
+                        <li class="sub">С документом — можешь требовать компенсацию или оставаться</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/key.svg" alt="" width="20" height="20"> Проходки и вайтлист</h2>
+                    <ul>
+                        <li>Вход на сервер только при наличии проходки</li>
+                        <li class="sub">8 000 баллов у стримера или 350 ₽ через Godlukplus</li>
+                        <li>При оформлении указывай корректный ник (с большими буквами)</li>
+                        <li>Обязательно ознакомься с #Правила и #Лор в Discord</li>
+                        <li class="sub">Игнорирование = бан</li>
+                        <li>Нужна версия 1.21.1 + моды Emotecraft и Plasma Voice</li>
+                        <li>Передача IP другим — бан</li>
+                        <li>Обход вайтлиста — перманентный бан</li>
+                        <li>Продажа/передача проходки — запрещена</li>
+                        <li>Возврат доната = аннулирование проходки</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="partners">
+        <div class="container">
+            <h2 class="section-title">Стримеры и партнёры</h2>
+            <p class="section-sub">Накопи 8 000 баллов на канале любого стримера и обменяй на проходку</p>
+            <div class="partner-card">
+                <div class="partner-avatar" data-twitch="godlukplus">
+                    <img src="" alt="" class="av">
+                    <span class="fb">G</span>
+                </div>
+                <div class="partner-info">
+                    <h3>Godluckplus</h3>
+                    <div class="role">Основатель сервера</div>
+                    <p class="desc">Главный стример и создатель RoglesWorld. Проходку можно получить как за баллы, так и за донат.</p>
+                    <div class="links">
+                        <a href="https://www.twitch.tv/godlukplus" target="_blank">Twitch</a>
+                        <a href="https://www.donationalerts.com/r/godlukplus" target="_blank">DonationAlerts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="become-box">
+                <h2>Стать партнёром</h2>
+                <p>Хочешь выдавать проходки своим зрителям? Свяжись с администрацией в Discord.</p>
+                <a href="https://discord.com/invite/syaFtpHVnV" target="_blank" class="btn-primary">Написать в Discord</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <p class="section-sub">Часто задаваемые вопросы о сервере RoglesWorld</p>
+            <div class="faq-grid">
+                <div class="rule-block">
+                    <h2><img src="icons/key.svg" alt="" width="20" height="20">Как попасть на сервер?</h2>
+                    <ul>
+                        <li>Строго 16+</li>
+                        <li>Купи проходку: 8 000 баллов у стримера или 350 ₽ через DonationAlerts у Godlukplus</li>
+                        <li>Укажи корректный ник (с большими буквами)</li>
+                        <li>Обязательно ознакомься с каналами #Правила и #Лор в Discord — игнорирование = бан</li>
+                        <li>Скачай версию 1.21.1</li>
+                        <li>Установи моды <a href="https://modrinth.com/mod/emotecraft" target="_blank" style="color:var(--blue)">Emotecraft</a> и <a href="https://modrinth.com/mod/plasmo-voice" target="_blank" style="color:var(--blue)">Plasma Voice</a></li>
+                        <li>Дождись внесения в вайтлист</li>
+                        <li>Заходи и играй!</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/battlement.svg" alt="" width="20" height="20">Информация о мире</h2>
+                    <ul>
+                        <li>Мир ограничен 7 000 блоков во все стороны</li>
+                        <li>Энд полностью отключён — ресурсы оттуда недоступны</li>
+                        <li>Торговец с книгами отключён</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/magic-swirl.svg" alt="" width="20" height="20">Основные команды</h2>
+                    <ul>
+                        <li><strong>/guide</strong> — обучит всем основным командам</li>
+                        <li><strong>/fhelp</strong> — помощник по созданию фракции</li>
+                        <li><strong>/shop</strong> — магазин: купить/продать предметы</li>
+                        <li><strong>/lands</strong> — система приватов по чанкам</li>
+                        <li><strong>/spawn</strong> — вернуться на спавн</li>
+                        <li><strong>/skill</strong> — информация о скиллах и бонусах</li>
+                        <li><strong>/pay</strong> — перевод денег другому игроку</li>
+                        <li><strong>/bal</strong> — текущий баланс</li>
+                        <li><strong>/g «сообщение»</strong> — сообщение в мировой чат (местный — просто в чат)</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/cash.svg" alt="" width="20" height="20">Аукционный дом</h2>
+                    <ul>
+                        <li>Зайди в /shop → раздел Rare → яйцо с жителем</li>
+                        <li>Это торговец аукционного дома — выставляй и покупай вещи</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/tombstone.svg" alt="" width="20" height="20">Могилки</h2>
+                    <ul>
+                        <li>После смерти вещи собираются в блок с вашей головой</li>
+                        <li>ПКМ — открыть могилку, Shift+ПКМ — подобрать всё</li>
+                        <li>Таймер могилки — 50 минут (идёт если вы или другой игрок в радиусе 5 чанков)</li>
+                        <li>Опыт тоже сохраняется в могилке</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/hooded-figure.svg" alt="" width="20" height="20">Профиль и обмен</h2>
+                    <ul>
+                        <li><strong>Профиль:</strong> ПКМ по игроку — увидишь экипировку, предмет в руке, основную информацию</li>
+                        <li><strong>Обмен:</strong> Shift+ПКМ по игроку — можно обменять монеты, опыт и вещи</li>
+                    </ul>
+                </div>
+                <div class="rule-block">
+                    <h2><img src="icons/muscle-up.svg" alt="" width="20" height="20">Экономика и налоги</h2>
+                    <ul>
+                        <li>Способы заработка: убийство мобов, продажа в магазине, аукцион, перевод от игроков</li>
+                        <li>Система налогов в /lands — команда /tax</li>
+                        <li>Больше 6 чанков — еженедельная плата</li>
+                        <li>Недостаток средств — земли заберут</li>
+                        <li>Чанк земли покупается за монеты</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="padding:20px 24px 50px">
+        <div class="warning-box">
+            <span>⚠</span>
+            <p>Незнание правил не освобождает от ответственности! Игнорирование #Правила и #Лор — бан.</p>
+        </div>
+    </div>
+
     <div class="modal-overlay" id="modalMods">
         <div class="modal-box">
             <button class="modal-x" aria-label="Закрыть">&times;</button>
@@ -216,23 +461,6 @@
         </div>
     </div>
 
-    <div class="container" style="padding:20px 24px 50px">
-        <div class="warning-box">
-            <span>⚠</span>
-            <p>Незнание правил не освобождает от ответственности! Игнорирование #Правила и #Лор — бан.</p>
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <section class="section">
-        <div class="container" style="text-align:center">
-            <h2 class="section-title">Последние вести</h2>
-            <p class="section-sub">Новости и обновления сервера</p>
-            <a href="news.html" class="btn-outline" style="margin-top:16px">Все вести</a>
-        </div>
-    </section>
-
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-col">
@@ -241,7 +469,7 @@
             </div>
             <div class="footer-col">
                 <h4>Навигация</h4>
-                <a href="index.html">Главная</a><a href="news.html">Новости</a><a href="rules.html">Правила</a><a href="partners.html">Стримеры</a><a href="faq.html">FAQ</a>
+                <a href="#hero">Главная</a><a href="#news">Вести</a><a href="#rules">Правила</a><a href="#partners">Стримеры</a><a href="#faq">FAQ</a>
             </div>
             <div class="footer-col">
                 <h4>Контакты</h4>
