@@ -8,56 +8,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="wrap">
-            <a href="index.html" class="brand">Rogles<span>World</span></a>
-            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
-            <ul class="menu" id="navLinks">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="rules.html">Правила</a></li>
-                <li><a href="partners.html" class="on">Стримеры</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
+
+<nav class="topbar">
+    <div class="topbar-inner">
+        <a href="index.html" class="topbar-brand">Rogles<span>World</span></a>
+        <ul class="topbar-links" id="navLinks">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="rules.html">Правила</a></li>
+            <li><a href="partners.html" data-active>Стримеры</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        <button class="topbar-burger" id="burger" aria-label="Меню"><i></i><i></i><i></i></button>
+    </div>
+</nav>
+
+<main class="inner-page" style="text-align:center">
+    <h1 class="page-title">Стримеры и партнёры</h1>
+    <p class="page-sub">Накопи 8 000 баллов на канале любого стримера и обменяй на проходку. Указывай корректный ник!</p>
+
+    <div class="partner-card">
+        <div class="partner-avatar" data-twitch="godluckplus">
+            <img src="" alt="" class="av">
+            <span class="fb">G</span>
         </div>
-    </nav>
-
-    <main class="partners">
-        <h1>Стримеры и партнёры</h1>
-        <p class="sub">Накопи 8 000 баллов на канале любого стримера и обменяй на проходку. Указывай корректный ник!</p>
-
-        <div class="pn">
-            <div class="pa" data-twitch="godluckplus">
-                <img src="" alt="" class="av">
-                <span class="fb">G</span>
+        <div class="partner-info">
+            <h3>Godluckplus</h3>
+            <div class="role">Основатель сервера</div>
+            <p class="desc">Главный стример и создатель RoglesWorld. Проходку можно получить как за баллы, так и за донат.</p>
+            <div class="links">
+                <a href="https://www.twitch.tv/godluckplus" target="_blank">Twitch</a>
+                <a href="https://www.donationalerts.com/r/godluckplus" target="_blank">DonationAlerts</a>
             </div>
-            <div class="pi">
-                <h3>Godluckplus</h3>
-                <div class="role">Основатель сервера</div>
-                <p class="desc">Главный стример и создатель RoglesWorld. Проходку можно получить как за баллы, так и за донат.</p>
-                <div class="links">
-                    <a href="https://www.twitch.tv/godluckplus" target="_blank">Twitch</a>
-                    <a href="https://www.donationalerts.com/r/godluckplus" target="_blank">DonationAlerts</a>
-                </div>
-            </div>
         </div>
+    </div>
 
-        <div class="bcome">
-            <h2>Стать партнёром</h2>
-            <p>Хочешь выдавать проходки своим зрителям? Свяжись с администрацией в Discord.</p>
-            <a href="https://discord.com/invite/syaFtpHVnV" target="_blank" class="btn">Написать в Discord</a>
-        </div>
-    </main>
+    <div class="become-box">
+        <h2>Стать партнёром</h2>
+        <p>Хочешь выдавать проходки своим зрителям? Свяжись с администрацией в Discord.</p>
+        <a href="https://discord.com/invite/syaFtpHVnV" target="_blank" class="btn-primary">Написать в Discord</a>
+    </div>
+</main>
 
-    <footer class="foot">
-        <div class="wrap">
-            <div><a href="index.html" class="brand">Rogles<span>World</span></a><p>Закрытый РПГ-мир Minecraft</p></div>
-            <div><h4>Навигация</h4><a href="index.html">Главная</a><a href="news.html">Новости</a><a href="rules.html">Правила</a><a href="partners.html">Стримеры</a><a href="faq.html">FAQ</a></div>
-            <div><h4>Контакты</h4><a href="https://discord.com/invite/syaFtpHVnV" target="_blank">Discord</a><a href="https://t.me/roglesworld" target="_blank">Telegram</a><a href="https://www.donationalerts.com/r/godluckplus" target="_blank">Донат</a></div>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-col">
+            <div class="topbar-brand" style="margin-bottom:6px">Rogles<span>World</span></div>
+            <p class="footer-text">Закрытый РПГ-мир Minecraft</p>
         </div>
-        <div class="copy"><p>&copy; 2026 RoglesWorld</p></div>
-    </footer>
-    <button class="to-top" id="toTop" aria-label="Наверх">&#8593;</button>
-    <script src="script.js"></script>
+        <div class="footer-col">
+            <h4>Навигация</h4>
+            <a href="index.html">Главная</a><a href="news.html">Новости</a><a href="rules.html">Правила</a><a href="partners.html">Стримеры</a><a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-col">
+            <h4>Контакты</h4>
+            <a href="https://discord.com/invite/syaFtpHVnV" target="_blank">Discord</a><a href="https://t.me/roglesworld" target="_blank">Telegram</a><a href="https://www.donationalerts.com/r/godluckplus" target="_blank">Донат</a>
+        </div>
+    </div>
+    <div class="footer-copy">&copy; 2026 RoglesWorld</div>
+</footer>
+
+<button class="scroll-up" id="toTop" aria-label="Наверх">▲</button>
+<script src="script.js"></script>
 </body>
 </html>
